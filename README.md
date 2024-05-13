@@ -1,6 +1,9 @@
 # Turmerik
 Internship Task for ML Intern at Turmerik
 
+**Authentication and API Setup**: Create a `.env` file and type `OPENAI_API_KEY==your_secret_key` to setup your OpenAI environment and perform Authentication via OAuth using the PRAW Documentation.
+(Refer: https://praw.readthedocs.io/en/stable/getting_started/authentication.html)
+
 **Evironment Setup**: Install all packages using `requirements.txt` by running the command `pip install -r requirements.txt`. Then create a 
 
 **Data Collection**: Run the script `get_data.py` to scrape the data from Reddit using the PRAW API. This will generate a file called `clinical_data_csv` which contains the scraped data and a file called `subreddits.csv` which contains the names, description and similarity scores of the relevant subreddits.
