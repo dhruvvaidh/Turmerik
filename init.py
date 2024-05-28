@@ -9,7 +9,7 @@ def start():
     reddit = Reddit(
         client_id="YhkXjhlaKvBFLHssk81Zkg",
         client_secret="FFLawg1SIc_TY7RzUk14_UWzNwjEDQ",
-        password="khandelwalA@1",
+        password="password",
         requestor_kwargs={"session": session},  # pass the custom Session instance
         user_agent="TrialTune by u/deathstroke_139",
         username="deathstroke_139",
